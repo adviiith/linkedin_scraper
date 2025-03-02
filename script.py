@@ -573,7 +573,7 @@ def main(input_file, url_header, output_prefix): #input_file, url_header, output
             driver.get(url) #opens the profile page
             print(f"Successfully loaded: {url}")
             
-            time.sleep(4) #waits for the page to load completely 
+            time.sleep(6) #waits for the page to load completely 
             scroll_page(driver) #ensures that each and every component of the page is loaded completely
             profile_data = {"URL": url}
             
